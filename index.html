@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datenschutz — LokalLottoAssistant</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      max-width: 42rem;
+      margin: 2rem auto;
+      padding: 0 1.25rem;
+      color: #1a1a1a;
+      background: #fafafa;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e8e8e8; background: #121212; }
+      a { color: #7cb8ff; }
+    }
+    h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.75rem; }
+    .meta { color: #666; font-size: 0.9rem; }
+    @media (prefers-color-scheme: dark) { .meta { color: #aaa; } }
+    ul { padding-left: 1.25rem; }
+    code { font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <h1>Datenschutzerklärung</h1>
+  <p class="meta">LokalLottoAssistant · Herausgeber: LLA Software · Stand: Juni 2026</p>
+
+  <h2>1. Verantwortlicher</h2>
+  <p>
+    Verantwortlich für diese App im Sinne der Datenschutz-Grundverordnung (DSGVO):
+    <strong>LLA Software</strong><br>
+    Kontakt: <a href="mailto:help.llassistant@outlook.at">help.llassistant@outlook.at</a>
+  </p>
+
+  <h2>2. Über die App</h2>
+  <p>
+    LokalLottoAssistant ist ein <strong>lokales Desktop-Hilfstool</strong> zur Analyse
+    historischer Lotto-Ziehungen und zur Erstellung von Tipps. Die App ist
+    <strong>kein Glücksspielanbieter</strong> und ermöglicht kein Wetten oder Spielen um Geld.
+  </p>
+  <p>
+    <strong>Alle Berechnungen</strong> (Filter, Statistiken, Tipp-Generierung, Auswertungen)
+    laufen <strong>ausschließlich auf Ihrem Gerät</strong>. Es gibt keine Cloud-Verarbeitung
+    und keine Übermittlung Ihrer Tipps oder Analyseergebnisse an den Entwickler oder
+    Drittanbieter-Server.
+  </p>
+
+  <h2>3. Welche Daten werden verarbeitet?</h2>
+
+  <h3>3.1 Daten auf Ihrem Gerät (lokal)</h3>
+  <p>Die App speichert Daten primär <strong>lokal auf Ihrem Windows-PC</strong>, typischerweise unter:</p>
+  <p><code>%LOCALAPPDATA%\LokalLottoAssistant\</code></p>
+  <p>Dort können u. a. folgende Inhalte liegen:</p>
+  <ul>
+    <li>Einstellungen und gespeicherte Filter-Presets</li>
+    <li>Lokale Kopie der Ziehungsdatenbank und CSV-Cache</li>
+    <li>HTTP-Cache für abgerufene öffentliche Ziehungsdaten</li>
+    <li>Protokolldateien (Logs) zur Fehleranalyse auf Ihrem Gerät</li>
+    <li><strong>Generierte und gespeicherte Tipps</strong> sowie Auswertungen/Exporte, die Sie in der App anlegen</li>
+    <li>Filter-Konfigurationen und Strategie-Presets</li>
+  </ul>
+  <p>
+    Tipps und Berechnungsergebnisse bleiben <strong>rein lokal</strong> auf Ihrem PC.
+    Diese Daten werden <strong>nicht automatisch an den Entwickler übertragen</strong>
+    und nicht in einer Cloud synchronisiert.
+  </p>
+
+  <h3>3.2 Netzwerkzugriffe</h3>
+  <p>
+    Wenn Sie Datenquellen aktualisieren oder Online-Quellen nutzen, stellt die App
+    <strong>ausgehende Verbindungen</strong> zu öffentlichen Webseiten und APIs her
+    (z. B. offizielle oder öffentlich zugängliche Lotto- und Eurojackpot-Quellen),
+    um Ziehungsergebnisse abzurufen. Dabei gelten die Datenschutzbestimmungen der
+    jeweiligen Betreiber dieser Webseiten.
+  </p>
+  <p>
+    Es werden <strong>keine Nutzerkonten</strong> bei Drittanbietern angelegt und
+    <strong>keine Zahlungsdaten</strong> verarbeitet.
+  </p>
+
+  <h3>3.3 Kein Tracking, keine Cloud-Berechnung</h3>
+  <p>
+    Die App verwendet <strong>keine Werbe-Tracker, kein Analytics-Tracking</strong>
+    und keine Profilbildung durch den Entwickler. Metriken und Logs dienen nur der
+    lokalen Fehlersuche auf Ihrem Gerät.
+  </p>
+  <p>
+    Die <strong>Tipp-Erzeugung und alle Filter-Pipelines</strong> werden vollständig
+    lokal ausgeführt; Ihre Tipplisten werden nur lokal gespeichert, sofern Sie sie
+    nicht selbst per Export (z. B. Datei) woanders ablegen.
+  </p>
+
+  <h2>4. Rechtsgrundlage</h2>
+  <p>
+    Die Verarbeitung lokaler Daten erfolgt zur Bereitstellung der App-Funktionen
+    (Art. 6 Abs. 1 lit. b DSGVO — Vertrag/Nutzung der App).
+    Netzwerkabrufe erfolgen auf Ihre Anweisung (z. B. „Daten aktualisieren“).
+  </p>
+
+  <h2>5. Speicherdauer</h2>
+  <p>
+    Lokale Daten bleiben gespeichert, bis Sie sie löschen, die App deinstallieren
+    oder den Ordner <code>%LOCALAPPDATA%\LokalLottoAssistant</code> entfernen.
+  </p>
+
+  <h2>6. Ihre Rechte</h2>
+  <p>Sie haben nach der DSGVO u. a. das Recht auf:</p>
+  <ul>
+    <li>Auskunft über gespeicherte Daten (bei rein lokaler Speicherung: Einsicht im genannten Ordner)</li>
+    <li>Berichtigung und Löschung (durch Löschen der lokalen Daten oder Deinstallation)</li>
+    <li>Beschwerde bei einer Aufsichtsbehörde</li>
+  </ul>
+  <p>
+    Wenden Sie sich dazu an
+    <a href="mailto:help.llassistant@outlook.at">help.llassistant@outlook.at</a>.
+  </p>
+
+  <h2>7. Microsoft Store</h2>
+  <p>
+    Wenn Sie die App über den Microsoft Store beziehen, gelten zusätzlich die
+    Datenschutzbestimmungen von Microsoft für den Store-Download und -Update-Prozess.
+  </p>
+
+  <h2>8. Änderungen</h2>
+  <p>
+    Diese Erklärung kann bei Funktionsänderungen angepasst werden. Das Datum
+    „Stand“ oben gibt die letzte Aktualisierung an.
+  </p>
+</body>
+</html>
